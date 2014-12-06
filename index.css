@@ -1,0 +1,63 @@
+<!DOCTYPE css>
+html {
+	cursor: crosshair;
+	}
+h1#title {
+	font-family: helvetica;
+	font-style: thin;
+	background-color: white;
+	opacity: 0.7;
+	color: black;
+	text-align: left;
+	width: 550px;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin: 5px;
+	padding-left: .1em;
+	}
+header {
+	background-image: url(flamingo.jpg);
+	margin-bottom: 2em;
+}
+div#navigation { 
+   padding: 2em; 
+   background: white; 
+   width: 100%; 
+   text-align: center; 
+} 
+div#navigation ul li { 
+   display: inline;
+} 
+div#navigation ul {
+	font-size: xx-large;
+}
+
+div#navigation ul a:link{ 
+	margin-top: 2em;
+   padding: 1.5em; 
+   font-weight: bold; 
+   font-size: large; 
+   color: gray;
+   border-color: black;
+   border: solid 2px black; 
+} 
+div#navigation ul a:visited{ 
+   margin: 0; 
+   padding: 1.5em; 
+   color: red; 
+} 
+div#navigation ul a:hover{ 
+   margin: 0; 
+   padding: 1.5em; 
+   color: white; 
+   background-color: black; 
+}
+footer {
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
+   height:120px;
+   width: 100%;
+   background: black;
+   padding-top: -1em;
+}
