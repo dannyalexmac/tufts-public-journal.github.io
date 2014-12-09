@@ -1,23 +1,12 @@
 <!DOCTYPE css>
 html {
 	cursor: crosshair;
-	}
-h1#title {
-	font-family: helvetica;
-	font-style: thin;
-	color: black;
-	text-align: left;
-	width: 550px;
-	font-size: 7em;
-	text-transform: uppercase;
-	padding-left: 0.1em;
-   background: rgba(255, 255, 255, 0.7);
-   margin-top: -70px;
-}   
+}
 header {
-	background-image: url(flamingo.jpg);
-	margin-bottom: 1em;
-   margin-top: 4em;
+   font-family: wedgie;
+   text-align: center;
+   font-size: 90px;
+   margin-bottom: -30px;
 }
 a {
    font-family: helvetica;
@@ -37,7 +26,6 @@ div#navigation ul {
 	font-size: xx-large;
    padding: -1em;
 }
-
 div#navigation ul a:link{ 
 	margin-top: 2em;
    padding: 1em;
@@ -51,6 +39,7 @@ div#navigation ul a:visited{
    margin: 0; 
    padding: 1em; 
    color: gray; 
+   border-color: black;
 } 
 div#navigation ul a:hover{ 
    margin: 0; 
