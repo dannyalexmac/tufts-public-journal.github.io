@@ -9,16 +9,16 @@ header {
    margin-bottom: -30px;
 }
 div#body {
-   background-image: url(border1.png);
+   background-image: url(border2.png);
    background-repeat: no-repeat;
    background-attachment: absolute;
    background-position: center;
-   background-size: 400px 925px;
+   background-size: 400px 675px;
    padding-bottom: 10em;
-   margin-top: -6em;
+   margin-top: -10em;
 }
 div#text {
-   margin-top: -35em;
+   margin-top: -52em;
 }
 p {
    font-family: helvetica;
