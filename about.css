@@ -1,0 +1,87 @@
+<!DOCTYPE css>
+html {
+	cursor: crosshair;
+}
+div#body {
+   background-image: url(border1.png);
+   background-repeat: no-repeat;
+   background-attachment: absolute;
+   background-position: center;
+   background-size: 600px 525px;
+   padding-bottom: 10em;
+   margin-top: -6em;
+}
+div#text {
+   margin-top: -31.65em;
+}
+header {
+   font-family: wedgie;
+   text-align: center;
+   font-size: 90px;
+   margin-bottom: -30px;
+}
+p {
+   font-family: helvetica;
+   font-size: small;
+   text-align: center;
+   width: 375px;
+   margin-left: auto;
+   margin-right: auto;
+}
+a {
+   font-family: helvetica;
+   text-decoration: none;
+}
+div#navigation { 
+   padding: 0em; 
+   background: white; 
+   width: 100%; 
+   text-align: center; 
+} 
+div#navigation ul li { 
+   display: inline;
+   margin: -5px;
+} 
+div#navigation ul {
+	font-size: xx-large;
+   padding: -1em;
+}
+div#navigation ul a:link{ 
+	margin-top: 2em;
+   padding: 1em;
+   font-weight: bold; 
+   font-size: large; 
+   color: red;
+   border-color: black;
+   border: solid 2px black;
+} 
+div#navigation ul a:visited{ 
+   margin: 0; 
+   padding: 1em; 
+   color: gray; 
+   border-color: black;
+} 
+div#navigation ul a:hover{ 
+   margin: 0; 
+   padding: 1em; 
+   color: white; 
+   background-color: black; 
+}
+footer {
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
+   height:80px;
+   width: 100%;
+   background-color: black;
+   padding-top: 0em;
+   padding-left: 1em;
+}
+a#mail {
+   float: right;
+   padding-right: 2em;
+}
+a#facebook {
+   float:right;
+   padding-right: 0.5em;
+}
